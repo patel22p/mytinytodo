@@ -1,0 +1,12 @@
+<?php
+
+if(!defined('MTTPATH')) define('MTTPATH', dirname(__FILE__) .'/');
+
+require_once(MTTPATH. 'db/config.php');
+require_once(MTTPATH. 'lang/class.default.php');
+require_once(MTTPATH. 'lang/'. $config['lang']. '.php');
+
+header('Content-type: text/javascript');
+echo Lang::instance()->makeJS();
+
+?>

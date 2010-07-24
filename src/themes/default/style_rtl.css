@@ -1,0 +1,20 @@
+body { direction:rtl; }
+h2 { float:right; }
+.bar-menu { float:left; }
+#loading { float:right; }
+#lists .mtt-tabs { float:right; }
+#rss_icon { float:left; }
+.mtt-tabs li { float:right; margin:1px 0 0 3px; border-left:none; border-right:1px solid #ededed; background:#fbfbfb url(images/tab_hover.gif) no-repeat top left; }
+.mtt-tabs li.mtt-tabs-selected { border-left:none; border-right:1px solid #ededed;  background:#ededed url(images/corner_left.gif) no-repeat top left; }
+.mtt-htabs { background:url(images/corner_left.gif) no-repeat top left #ededed; }
+
+.task-actions { float:left; text-align:left; width:15px; }
+.task-left { float:right; }
+.task-toggle { float:right; }
+.task-middle { margin-right:40px; margin-left:25px; }
+.task-date { margin-right:4px; }
+.duedate { float:left; margin-left:0; margin-right:5px; }
+#taskedit-date { float:left; }
+#page_taskedit .form-row-short { float:right; margin-left:12px; margin-right:0; }
+.task-prio { float:right; margin-left:4px; margin-right:0; }
+.alltags-cell { padding-left:0; padding-right:5px; }
